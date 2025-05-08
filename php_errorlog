@@ -1,0 +1,97 @@
+[17-Dec-2024 11:22:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 8
+[17-Dec-2024 11:25:31 UTC] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:25:31 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/usr/local/php82/pear') in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:25:31 UTC] PHP Warning:  Undefined variable $conn in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 24
+[17-Dec-2024 11:25:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 24
+[17-Dec-2024 11:28:43 UTC] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:28:43 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/usr/local/php82/pear') in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:28:43 UTC] PHP Warning:  Undefined variable $conn in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 24
+[17-Dec-2024 11:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 24
+[17-Dec-2024 11:29:17 UTC] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:29:17 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/usr/local/php82/pear') in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:29:33 UTC] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:29:33 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/usr/local/php82/pear') in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 7
+[17-Dec-2024 11:41:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[17-Dec-2024 11:41:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[17-Dec-2024 11:44:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:39
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 39
+[17-Dec-2024 11:44:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:39
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 39
+[17-Dec-2024 11:46:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:39
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 39
+[17-Dec-2024 11:46:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:39
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 39
+[17-Dec-2024 11:49:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:49:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:50:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:50:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:50:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:50:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:50:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:51:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tweets.tweet_content' in 'field list' in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php:44
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php(44): PDOStatement->execute()
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/home.php on line 44
+[17-Dec-2024 11:56:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/profile.php on line 26
+[17-Dec-2024 11:56:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dbskk7qm4tocux`.`followers`, CONSTRAINT `followers_ibfk_2` FOREIGN KEY (`followed_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/follow.php:10
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Twitter/follow.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/follow.php on line 10
+[23-Jan-2025 10:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[14-Feb-2025 11:22:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[15-Feb-2025 11:29:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[17-Feb-2025 11:15:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[17-Feb-2025 11:17:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[27-Apr-2025 10:59:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29
+[08-May-2025 03:55:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php:28) in /home/customer/www/rsoa72.rehan.school/public_html/Twitter/signup.php on line 29

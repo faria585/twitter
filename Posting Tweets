@@ -1,0 +1,44 @@
+<?php
+include 'db.php';
+session_start();
+
+if (!isset($_SESSION['user_id'])) {
+    header('Location: login.php');
+    exit();
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $content = $_POST['content'];
+    $user_id = $_SESSION['user_id'];
+
+    $stmt = $conn->prepare("INSERT INTO tweets (user_id, content) VALUES (?, ?)");
+    $stmt->execute([$user_id, $content]);
+}
+
+$tweets = $conn->query("SELECT tweets.content, users.username, tweets.created_at 
+                        FROM tweets 
+                        JOIN users ON tweets.user_id = users.id 
+                        ORDER BY tweets.created_at DESC");
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Twitter</title>
+    <style>
+        /* Internal CSS */
+    </style>
+</head>
+<body>
+    <form method="POST">
+        <textarea name="content" maxlength="160" placeholder="What's happening?" required></textarea>
+        <button type="submit">Tweet</button>
+    </form>
+    <h2>Timeline</h2>
+    <div>
+        <?php foreach ($tweets as $tweet): ?>
+            <p><strong><?= htmlspecialchars($tweet['username']) ?>:</strong> <?= htmlspecialchars($tweet['content']) ?></p>
+        <?php endforeach; ?>
+    </div>
+</body>
+</html>
